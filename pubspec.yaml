@@ -38,6 +38,20 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_screenutil: ^5.0.0+2
   provider: ^6.1.2
+  firebase_core: ^3.12.1
+  dotted_border: ^2.1.0
+  group_button: ^5.3.4
+  radio_group_v2: ^3.3.1
+  firebase_auth: ^5.5.1
+  ok_http: ^0.1.0
+  lottie: ^3.3.1
+  # csc_picker: ^0.2.6
+  cloud_firestore: ^5.6.5
+  image_picker: ^1.1.2
+  google_sign_in: ^6.2.2
+  firebase_storage: ^12.4.4
+  shared_preferences: ^2.5.2
+    
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,9 +75,37 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    # - asset/
+    - asset/image/row2.png
+    - asset/image/ali1.jpeg
+    - asset/image/ali4.jpeg
+    - asset/image/ali5.jpeg
+    - asset/image/ali7.jpeg
+    - asset/image/ali8.jpeg
+    - asset/image/slide1.png
+    - asset/image/slide2.png
+    - asset/image/slide3.png
+    - asset/image/slider.jpeg
+    - asset/image/Animation.json
+    - asset/image/slide3.json
+    - asset/image/slide2.json
+    - asset/image/slide1.json
+    - asset/image/row1.png
+    - asset/image/vector.png
+    - asset/image/upword.png
+    - asset/image/delete.png
+    - asset/image/camera.png
+    - asset/image/list.png
+    - asset/image/true.png
+    - asset/image/lockicon.png
+    - asset/image/add.png
+    - asset/image/person.png
+    - asset/image/appbar.jpg
+    - asset/image/print.jpg
+    - asset/image/flag.jpg 
+    - asset/image/download.jpg
+  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227496924226",
+    "project_id": "register-fc9ec",
+    "storage_bucket": "register-fc9ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227496924226:android:33f827d0e7b818022709db",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLVgsGW1KBNgBuQReO2Ok1nrmXp4fd9PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

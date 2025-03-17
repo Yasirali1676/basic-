@@ -1,10 +1,20 @@
-import 'package:dashboard/view/home_veiw.dart';
+
+import 'package:dashboard/Smit/chatapp/views/splash/splash.dart';
+import 'package:dashboard/Trenzym/constant/constant.dart';
+
+import 'package:dashboard/supplier/veiw.dart/home_veiw_model.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+
+void main() async{
+    WidgetsFlutterBinding.ensureInitialized();
+ await Firebase.initializeApp();
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
@@ -27,11 +37,11 @@ class MyApp extends StatelessWidget {
           child: MaterialApp(
             title: 'Flutter Demo',
             theme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+              colorScheme: ColorScheme.fromSeed(seedColor: AppColors.kPrimaryBtnColor),
               useMaterial3: true,
             ),
             debugShowCheckedModeBanner: false,
-            home: const HomeVeiw(), // Ensure you have 'HomeView' widget
+            home:SplashScreen()                                                                                         
           ),
         );
       },
@@ -39,7 +49,5 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Make sure to create this provider if it doesn't exist yet
-class DialogProvider with ChangeNotifier {
-  // Your state and logic for dialog management
-}
+
+
